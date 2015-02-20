@@ -30,3 +30,6 @@ The following terms indicate if the variable represents a mean (mean) or standar
 The final letter of some variable names show the axis of motion, x, y, or z
 
 Variable names also listed in the data_details file in this repo
+
+Reference
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones

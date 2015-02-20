@@ -2,10 +2,6 @@
 ##February 2015
 ## 1 Step: Download and unzip the data
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-# temp <- tempfile()
-# download.file(fileUrl,temp)
-# data <- read.table(unz(temp, "getdata-projectfiles-UCI HAR Dataset.zip"))
-# unlink(temp)
 download.file(fileURL,"Dataset.zip", mode="wb")
 unzip("Dataset.zip")
 ##2. Step read th global data sets
